@@ -1,0 +1,56 @@
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: rgb(0, 0, 0);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before
+{
+    content: '';
+    mask: url('https://img.icons8.com/ios-glyphs/30/less-than.png') no-repeat center;
+    -webkit-mask: url('https://img.icons8.com/ios-glyphs/30/less-than.png') no-repeat center;
+    background-color: black; /* Color of the icon */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '';
+    mask: url('https://img.icons8.com/ios-glyphs/30/more-than.png') no-repeat center;
+    -webkit-mask: url('https://img.icons8.com/ios-glyphs/30/more-than.png') no-repeat center;
+    background-color: black; /* Color of the icon */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.slick-next:before
+{
+    content: '';
+    mask: url('https://img.icons8.com/ios-glyphs/30/more-than.png') no-repeat center;
+    -webkit-mask: url('https://img.icons8.com/ios-glyphs/30/more-than.png') no-repeat center;
+    background-color: black; /* Color of the icon */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '';
+    mask: url('https://img.icons8.com/ios-glyphs/30/less-than.png') no-repeat center;
+    -webkit-mask: url('https://img.icons8.com/ios-glyphs/30/less-than.png') no-repeat center;
+    background-color: black; /* Color of the icon */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
